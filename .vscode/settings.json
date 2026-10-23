@@ -1,0 +1,12 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.formatOnSave": true,
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on"
+  },
+  "python.analysis.typeCheckingMode": "basic"
+}

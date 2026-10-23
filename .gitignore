@@ -1,0 +1,35 @@
+# Secrets
+.env
+*.pem
+*.key
+*.tfvars
+!example.tfvars
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+.terraform.lock.hcl.bak
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# MLflow local data
+ml/mlflow.db
+ml/mlruns/
+ml/mlartifacts/
+ml/*.png
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Ansible
+*.retry
